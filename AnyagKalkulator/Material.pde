@@ -4,19 +4,19 @@ class Material{
   String wnr;
   String profile;
   
-  int A;
-  int B;
-  int C;
-  int L;
-  int maxL;
+  String A;
+  String B;
+  String C;
+  float L;
+  float maxL;
   
-  int pricePerMeter;
+  float pricePerMeter;
   
   Material(){
   }
   
   Material(String materialGroup, String wnr, String profile,
-    int A, int B, int C, int maxL, int pricePerMeter){
+    String A, String B, String C, float maxL, float pricePerMeter){
     this.materialGroup = materialGroup;
     this.wnr = wnr;
     this.profile = profile;
